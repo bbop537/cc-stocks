@@ -13,7 +13,7 @@ print("3 - Stock host")
 
 local choice = read()
 
-if tonumber(choice) and math.floor(tonumber(choice)) == tonumber(choice) and choice>=1 and choice <= 3 then
+if tonumber(choice) and math.floor(tonumber(choice)) == tonumber(choice) and tonumber(choice)>=1 and tonumber(choice) <= 3 then
     local types = {"customer", "broker", "host"}
     local chosen = types[tonumber(choice)]
 
